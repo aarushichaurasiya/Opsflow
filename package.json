@@ -1,0 +1,14 @@
+{
+  "name": "opsflow",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
